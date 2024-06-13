@@ -3,3 +3,13 @@
  x | 0 | 0
 -----------
  0 | x | x
+
+ -- Passo a Passo
+git switch main
+git pull
+git switch fabio
+git merge "branch do colaborador"
+- Faço alteração no VSCode
+git add .
+git commit -m "message"
+git push
